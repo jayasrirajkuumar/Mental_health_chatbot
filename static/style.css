@@ -1,0 +1,13 @@
+/* static/style.css */
+body { font-family: Arial, sans-serif; background:#f4f7fb; }
+#chat-root { width: 600px; margin: 30px auto; background:white; border-radius:8px; padding:16px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);}
+h1 { margin:0 0 12px 0; font-size:20px; text-align:center;}
+#chat-box { height:360px; overflow:auto; border:1px solid #e1e8f0; padding:12px; border-radius:6px; background:#fafcff;}
+.message { margin:8px 0; max-width:80%; padding:10px 12px; border-radius:10px; }
+.user { background:#dbeafe; margin-left:auto; text-align:right;}
+.bot { background:#f1f5f9; margin-right:auto; text-align:left;}
+#input-area { display:flex; gap:8px; margin-top:12px; }
+#input-area input#user-input { flex:1; padding:8px; }
+#input-area input#session-id { width:110px; padding:8px; }
+#input-area button { padding:8px 12px; }
+.note { font-size:12px; color:#666; margin-top:8px; text-align:center; }

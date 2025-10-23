@@ -106,7 +106,7 @@ def choose_template(emotion):
 # GEMINI INTEGRATION
 # -----------------------------
 # ⚡ Set your API key directly here
-GEN_KEY = "AIzaSyCPsQ5Hd0gteHyIryT6zm4-Lske0zzKWvU"  # ← Replace with your actual Gemini API key
+GEN_KEY = ""  # ← Replace with your actual Gemini API key
 genai.configure(api_key=GEN_KEY)
 
 def call_gemini(prompt):
